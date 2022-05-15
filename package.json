@@ -1,0 +1,26 @@
+{
+  "name": "yt-downloader",
+  "description": "Downloads YouTube videos and delivers it to you",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HardJoe/yt-downloader"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HardJoe/yt-downloader/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "ytdl-core": "^4.11.0"
+  }
+}
