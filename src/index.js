@@ -21,7 +21,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  return res.render('index');
+  return res.send('Welcome to YT Downloader!');
 });
 
 const getInfo = (url, flags) =>
